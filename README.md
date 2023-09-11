@@ -1,6 +1,6 @@
 # Crowdfunding_ETL
-UNC-CH-DA - Project 2 - ETL Mini Project
-Contributors:
+## UNC-CH-DA - Project 2 - ETL Mini Project
+**Contributors:**
 * Andrew Bourgeois
 * Roberto Gutierrez
 
@@ -14,21 +14,21 @@ Work with a partner to practice building an ETL pipeline using Python, Pandas, a
 
 ### **REQUIREMENTS**
 
-## **Create the Category and Subcategory DataFrames (15 points)**
+## **A Category DataFrame is Created (15 Points) Drew**
 * The DataFrame contains a "category_id" column that has entries going sequentially from "cat1" to "catn", where n is the number of unique categories (5 points)
 
 * The DataFrame has a "category" column that contains only the category titles (5 points)
 
 * The category DataFrame is exported as category.csv (5 points)
 
-## **Create the Campaign DataFrame (15 Points)s**
+## **A Subcategory DataFrame is Created (15 Points)**
 * The DataFrame contains a "subcategory_id" column that has entries going sequentially from "subcat1" to "subcatn", where n is the number of unique subcategories (5 points)
 
 * The DataFrame contains a "subcategory" column that contains only the subcategory titles (5 points)
 
 * The subcategory DataFrame is exported as subcategory.csv (5 points)
 
-## **Create the Contacts DataFrame (30 Points)**
+## **A Campaign DataFrame is Created (30 Points) Drew**
 * The DataFrame has the following columns: (25 points)
     * A "cf_id" column
     * A "contact_id" column
@@ -47,7 +47,16 @@ Work with a partner to practice building an ETL pipeline using Python, Pandas, a
 
 * The campaign DataFrame is exported as campaign.csv (5 points)
 
-## **Create the Crowdfunding Database (25 Points)**
+## **A Contacts DataFrame is Created (15 Points) Roberto**
+* The DataFrame has the following columns: (10 points)
+    * A "contact_id" column
+    * A "first_name" column
+    * A "last_name" column
+    * An "email" column
+
+* The contacts DataFrame is exported as contacts.csv (5 points)
+
+## **Create the Crowdfunding Database (25 Points) Both Drew and Roberto**
 * A database schema labeled, crowdfunding_db_schema.sql is created (5 points)
 
 * A crowdfunding_db is created using the crowdfunding_db_schema.sql file (5 points)
